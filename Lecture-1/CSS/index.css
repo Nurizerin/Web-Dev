@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    margin:0 100px;
+}
+
+.top {
+    color: blue;
+    text-align: center;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
