@@ -13,21 +13,21 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Headphone's Shop</title>
   </head>
-  <body>
+  <body class="py-14">
     <!-- upper portion -->
     <section
       id="upper-section"
-      class="w-full h-[70vh] flex justify-center items-center"
+      class="w-full lg:h-[50vh] flex justify-center items-center"
     >
       <div
         id="wrapper"
-        class="bg-[#F02D34] w-[80%] lg:w-[78%] lg:h-[70%] mt-28 lg:mt-20 mx-2 lg:mx-10 rounded-xl"
+        class="bg-[#F02D34] lg:w-[80%] h-[85%] py-5 lg:py-0 mt-8 mx-2 lg:mx-10 rounded-xl"
       >
         <!-- parentdiv -->
-        <div class="flex flex-col lg:flex-row lg:justify-center w-full h-full">
+        <div class="flex flex-col lg:flex-row lg:justify-center w-full">
           <!-- child div 1  fine smile-->
           <div
-            class="w-[80%] lg:w-[30%] flex flex-col lg:items-start items-center ml-8 mt-20 lg:mt-0 lg:my-28 lg:pl-10 lg:py-20"
+            class="lg:ml-10 lg:w-[30%] flex flex-col justify-center items-center lg:items-start"
           >
             <p class="uppercase text-sm text-white font-light">20% off</p>
             <p
@@ -48,162 +48,161 @@
             <img
               src="./img/a64b345016e96adfb8849af5521c8e0ecfe8f027-555x555.webp"
               alt=""
-              class="lg:w-[115%] lg:h-[67vh] lg:mt-[-20%] lg:ml-0 ml-14"
+              class="lg:w-[115%] lg:mt-[-20%] ml-14 lg:ml-0"
             />
           </div>
           <!-- child div 3 beats solo air part -->
-          <div class="flex flex-col justify-center lg:w-[35%] rounded-xl">
-            <div class="lg:mt-15 ml-8">
-              <h5 class="text-white ml-20 lg:ml-0 lg:mb-5">Beats Solo Air</h5>
-              <h1
-                class="ml-12 lg:ml-0 text-2xl lg:text-5xl font-extrabold text-white mb-2 lg:mb-4"
-              >
-                Summer Sale
-              </h1>
-              <h6
-                class="ml-8 lg:ml-0 text-white text-xs mr-6 lg:mr-5 font-thin]"
-              >
-                Company that's Grown from 270 t0 480 Employees From Last 12
-                Months
-              </h6>
-              <button
-                class="text-[#F02D34] bg-slate-50 text-base px-1 lg:px-2.5 py-1 lg:py-2 font-bold rounded-lg mt-2 lg:mt-10 mb-5 lg:mb-0 lg:mx-0 ml-20 lg:ml-0"
-              >
-                <a href="./single product.html">Shop Now</a>
-              </button>
-            </div>
+          <div
+            class="lg:ml-10 lg:w-[30%] flex flex-col justify-center items-center lg:items-start"
+          >
+            <h5 class="text-white lg:ml-0">Beats Solo Air</h5>
+            <h1 class="lg:ml-0 text-2xl lg:text-4xl font-extrabold text-white">
+              Summer Sale
+            </h1>
+            <h6
+              class="w-[70%] lg:w-[90%] text-center lg:text-start text-white text-xs lg:mr-5 font-thin"
+            >
+              Company that's Grown from 270 t0 480 Employees From Last 12 Months
+            </h6>
+            <button
+              class="text-[#F02D34] bg-slate-50 text-base px-1 lg:px-2.5 py-1 lg:py-2 font-bold rounded-lg lg:mx-0 lg:ml-0 mt-2"
+            >
+              <a href="./single product.html" class="mx-2">Shop Now</a>
+            </button>
           </div>
+
           <!-- child div 3 beats solo air part END-->
         </div>
       </div>
     </section>
 
-    <!-- products div -->
-    <div
-      class="products flex flex-col justify-center items-center text-[#324D67] mt-24 lg:mt-0 mb-4"
-    >
-      <div class="font-bold text-2xl lg:text-3xl">
-        <h2>Best Seller Products</h2>
-      </div>
-      <div>
+    <section class="my-8">
+      <!-- products div -->
+      <div
+        class="products flex flex-col justify-center items-center text-[#324D67] lg:mt-0 mb-4"
+      >
+        <div class="font-bold text-2xl lg:text-3xl">
+          <h2>Best Seller Products</h2>
+        </div>
         <p class="text-sm font-light">
           Speaker There Are Many Variations Passages
         </p>
       </div>
-    </div>
 
-    <!-- product div  -->
-    <div
-      class="w-[80%] mx-auto my-5 flex flex-wrap items-center justify-center gap-5"
-    >
-      <!-- single product start -->
-      <div id="card">
-        <div class="h-[200px] w-[200px] rounded-lg bg-[#EBEBEB]">
-          <a href="./single product.html"
-            ><img
-              src="./img/a64b345016e96adfb8849af5521c8e0ecfe8f027-555x555.webp"
-              alt=""
-          /></a>
-        </div>
+      <!-- product div  -->
 
-        <div class="mt-2 text-sm font-bold">
-          <p class="text-gray-500">solo headphone</p>
-          <p>$80</p>
+      <div
+        class="w-[80%] mx-auto flex flex-wrap items-center justify-center gap-3"
+      >
+        <!-- single product start -->
+        <div id="card">
+          <div class="h-[200px] w-[200px] rounded-lg bg-[#EBEBEB]">
+            <a href="./single product.html"
+              ><img
+                src="./img/a64b345016e96adfb8849af5521c8e0ecfe8f027-555x555.webp"
+                alt=""
+            /></a>
+          </div>
+
+          <div class="mt-2 text-sm font-bold">
+            <p class="text-gray-500">solo headphone</p>
+            <p>$80</p>
+          </div>
         </div>
+        <!-- single product end -->
+
+        <!-- single product start -->
+        <div id="card">
+          <div class="h-[200px] w-[200px] rounded-lg bg-[#EBEBEB]">
+            <img src="./img/earphones_a_2.webp" alt="" />
+          </div>
+
+          <div class="mt-2 text-sm font-bold">
+            <p class="text-gray-500">solo headphone</p>
+            <p>$88</p>
+          </div>
+        </div>
+        <!-- single product end -->
+
+        <!-- single product start -->
+        <div id="card">
+          <div class="h-[200px] w-[200px] rounded-lg bg-[#EBEBEB]">
+            <img src="./img/earphones_a_3.webp" alt="" />
+          </div>
+
+          <div class="mt-2 text-sm font-bold">
+            <p class="text-gray-500">solo headphone</p>
+            <p>$90</p>
+          </div>
+        </div>
+        <!-- single product end -->
+
+        <!-- single product start -->
+        <div id="card">
+          <div class="h-[200px] w-[200px] rounded-lg bg-[#EBEBEB]">
+            <img src="./img/earphones_b_4.webp" alt="" />
+          </div>
+
+          <div class="mt-2 text-sm font-bold">
+            <p class="text-gray-500">solo headphone</p>
+            <p>$80</p>
+          </div>
+        </div>
+        <!-- single product end -->
+
+        <!-- single product start -->
+        <div id="card">
+          <div class="h-[200px] w-[200px] rounded-lg bg-[#EBEBEB]">
+            <img src="./img/earphones_b_3.webp" alt="" />
+          </div>
+
+          <div class="mt-2 text-sm font-bold">
+            <p class="text-gray-500">solo headphone</p>
+            <p>$67</p>
+          </div>
+        </div>
+        <!-- single product end -->
+
+        <!-- single product start -->
+        <div id="card">
+          <div class="h-[200px] w-[200px] rounded-lg bg-[#EBEBEB]">
+            <img src="./img/earphones_c_4.webp" alt="" />
+          </div>
+
+          <div class="mt-2 text-sm font-bold">
+            <p class="text-gray-500">solo headphone</p>
+            <p>$55</p>
+          </div>
+        </div>
+        <!-- single product end -->
+
+        <!-- single product start -->
+        <div id="card">
+          <div class="h-[200px] w-[200px] rounded-lg bg-[#EBEBEB]">
+            <img src="./img/earphones_c_3.webp" alt="" />
+          </div>
+
+          <div class="mt-2 text-sm font-bold">
+            <p class="text-gray-500">solo headphone</p>
+            <p>$60</p>
+          </div>
+        </div>
+        <!-- single product end -->
+
+        <!-- single product start -->
+        <div id="card">
+          <div class="h-[200px] w-[200px] rounded-lg bg-[#EBEBEB]">
+            <img src="./img/earphones_c_1.webp" alt="" />
+          </div>
+
+          <div class="mt-2 text-sm font-bold">
+            <p class="text-gray-500">solo headphone</p>
+            <p>$50</p>
+          </div>
+        </div>
+        <!-- single product end -->
       </div>
-      <!-- single product end -->
-
-      <!-- single product start -->
-      <div id="card">
-        <div class="h-[200px] w-[200px] rounded-lg bg-[#EBEBEB]">
-          <img src="./img/earphones_a_2.webp" alt="" />
-        </div>
-
-        <div class="mt-2 text-sm font-bold">
-          <p class="text-gray-500">solo headphone</p>
-          <p>$88</p>
-        </div>
-      </div>
-      <!-- single product end -->
-
-      <!-- single product start -->
-      <div id="card">
-        <div class="h-[200px] w-[200px] rounded-lg bg-[#EBEBEB]">
-          <img src="./img/earphones_a_3.webp" alt="" />
-        </div>
-
-        <div class="mt-2 text-sm font-bold">
-          <p class="text-gray-500">solo headphone</p>
-          <p>$90</p>
-        </div>
-      </div>
-      <!-- single product end -->
-
-      <!-- single product start -->
-      <div id="card">
-        <div class="h-[200px] w-[200px] rounded-lg bg-[#EBEBEB]">
-          <img src="./img/earphones_b_4.webp" alt="" />
-        </div>
-
-        <div class="mt-2 text-sm font-bold">
-          <p class="text-gray-500">solo headphone</p>
-          <p>$80</p>
-        </div>
-      </div>
-      <!-- single product end -->
-
-      <!-- single product start -->
-      <div id="card">
-        <div class="h-[200px] w-[200px] rounded-lg bg-[#EBEBEB]">
-          <img src="./img/earphones_b_3.webp" alt="" />
-        </div>
-
-        <div class="mt-2 text-sm font-bold">
-          <p class="text-gray-500">solo headphone</p>
-          <p>$67</p>
-        </div>
-      </div>
-      <!-- single product end -->
-
-      <!-- single product start -->
-      <div id="card">
-        <div class="h-[200px] w-[200px] rounded-lg bg-[#EBEBEB]">
-          <img src="./img/earphones_c_4.webp" alt="" />
-        </div>
-
-        <div class="mt-2 text-sm font-bold">
-          <p class="text-gray-500">solo headphone</p>
-          <p>$55</p>
-        </div>
-      </div>
-      <!-- single product end -->
-
-      <!-- single product start -->
-      <div id="card">
-        <div class="h-[200px] w-[200px] rounded-lg bg-[#EBEBEB]">
-          <img src="./img/earphones_c_3.webp" alt="" />
-        </div>
-
-        <div class="mt-2 text-sm font-bold">
-          <p class="text-gray-500">solo headphone</p>
-          <p>$60</p>
-        </div>
-      </div>
-      <!-- single product end -->
-
-      <!-- single product start -->
-      <div id="card">
-        <div class="h-[200px] w-[200px] rounded-lg bg-[#EBEBEB]">
-          <img src="./img/earphones_c_1.webp" alt="" />
-        </div>
-
-        <div class="mt-2 text-sm font-bold">
-          <p class="text-gray-500">solo headphone</p>
-          <p>$50</p>
-        </div>
-      </div>
-      <!-- single product end -->
-    </div>
+    </section>
 
     <!-- all products -->
     <!-- parent div -->
